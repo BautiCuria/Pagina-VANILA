@@ -1,0 +1,252 @@
+/*GENERAL SECTION*/
+body{
+    margin: 0px;
+    font-family: "Helvetica Neue", arial, sans-serif;;
+}
+.h2{
+    color: black;
+    justify-content: center;
+}
+
+/*HEADER SECTION*/
+#Header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0050c3;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 60px;
+}
+#LogoLogin{
+    padding-top: 20px;
+}
+#Login{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    
+}
+#logo{
+    height: 50px;
+}
+#DivHeader{
+    display: flex;
+
+}
+#CrearTienda2{
+    background-color: white;
+    cursor: pointer;
+    padding: 10px;
+    padding-top: 10px;
+    border-radius: 100px;
+    color: #0050c3;
+    border: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    height: 22px;
+}
+#CrearTienda2:hover{
+    background-color: transparent;
+    border: solid white; 
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+#p1Section{
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+/*PRIMER SECTION*/
+#PrimerSection{
+    padding-bottom: 35px;
+    padding-top: 35px;
+    padding-left: 50px;
+    padding-right: 30px;
+    background-color: #0050c3;
+    color: white;
+}
+#Login{
+    text-decoration: none;
+}
+.ImputEmail{
+  display: flex;
+  align-items: center;
+  width: 500px;
+  padding: 10px;
+  border-radius: 100px;
+  transition: 200ms;
+  text-transform: uppercase;
+  background-color: white;
+  justify-content: space-between;
+}
+#Section1{
+    display: flex;
+    justify-content: space-between;
+}
+#h1Section1{
+    padding-top: 120px;
+}
+#PrimerSection h1{
+    font-size: 42px;
+    font-weight: 600;
+    
+}
+.Boton-CrearTienda{
+    background-color: #0050c3;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 100px;
+    color: white;
+    border: #0050c3;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.Boton-CrearTienda:hover{
+    background-color: transparent;
+    border: solid #0050c3; 
+    color: #0050c3;
+    text-decoration: none;
+}
+#ImputMail{
+    border: white;
+    padding-left: 20px;
+}
+#ImagenPrimerSection{
+    height: auto;
+    width: 630px;
+}
+
+/*SEGUNDO SECTION*/
+#SegundoSection{
+    padding-bottom: 0px;
+    padding-top: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: block;
+}
+#ContenedorTarjetas{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: stretch;
+}
+.tarjeta{
+    color: black;
+    border: 1px solid;
+    border-radius: 16px;
+    border-color: #0050c3;
+    padding: 20px;
+}
+#Section2h2{
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+/*TERCER SECTION*/
+#TercerSection{
+    padding-bottom: 120px;
+    padding-top: 120px;
+    display: block;
+}
+#h2Section3{
+    text-align: center;
+}
+#Section3{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 180px;
+}
+#TercerImg{
+    width: 500px;
+    padding: 20px;
+}
+#texto3{
+    padding: 20px;
+}
+
+
+/*CUARTO SECTION*/
+#CuartoSection{
+    padding-bottom: 120px;
+    padding-top: 120px;
+    background-color: #0050c3;
+    color: white;
+}
+#Section4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#CuadradosConJs{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/*QUINTO SECTION*/
+#QuintoSection{
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+
+/*SEXTO SECTION*/
+#SextoSection{
+    padding-bottom: 120px;
+    padding-top: 120px;
+    display: flex;
+}
+#ImgSexto{
+    width: 50%;
+}
+
+
+/*SEPTIMO SECTION*/
+#SeptimoSection{
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+#ContainerSeptimo{
+    display: flex;
+    justify-content: space-between;
+}
+#h1Septimo{
+
+}
+#PregSeptimo{
+
+}
+
+
+/*FOOTER SECTION*/
+#footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0050c3;
+    color: white;
+    padding: 30px;
+}
+#SectionFooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#DivIzq{
+
+}
+#DivDer{
+}
+.ImgFooter{
+    color: white;
+    text-decoration: none;
+}
