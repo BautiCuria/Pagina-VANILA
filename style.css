@@ -129,11 +129,10 @@ body{
     padding-right: 50px;
     display: block;
 }
-#ContenedorTarjetas{
+.ContenedorTarjetas{
     display: flex;
     margin: 0;
     padding: 0;
-    align-items: stretch;
 }
 .tarjeta{
     color: black;
@@ -141,8 +140,9 @@ body{
     border-radius: 16px;
     border-color: #0050c3;
     padding: 20px;
+    margin: 10px;
 }
-#Section2h2{
+.Section2h2{
     display: block;
     font-size: 30px;
     text-align: center;
@@ -159,11 +159,13 @@ body{
 }
 #h2Section3{
     text-align: center;
+    font-size: 30px ;
 }
 #Section3{
     display: flex;
     flex-wrap: wrap;
-    padding-left: 180px;
+    align-items: center;
+    padding-left: 150px;
 }
 #TercerImg{
     width: 500px;
@@ -171,13 +173,27 @@ body{
 }
 #texto3{
     padding: 20px;
+    padding-left: 100px;
+}
+#h1S3{
+    font-size: 27px;
+}
+.ListaS3{
+    font-size: 20px;
+    padding-bottom: 3px;
+    line-height: 0px;
+}
+.S3{
+    margin-top: 40px;
 }
 
 
 /*CUARTO SECTION*/
 #CuartoSection{
-    padding-bottom: 120px;
+    padding-bottom: 220px;
     padding-top: 120px;
+    padding-left: 90px;
+    padding-right: 200px;
     background-color: #0050c3;
     color: white;
 }
@@ -186,45 +202,121 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+#h1CS{
+    font-size: 45px;
+    margin-top: 0px;
+}
 #CuadradosConJs{
     background-color: white;
     color: black;
     border-radius: 10px;
-    padding: 20px;
+    padding: 50px;
+    height: 480px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#pCS{
+    font-size: 24px;
+}
+#Veron{
+    line-height: 5px;
+}
+#Veron p{
+    font-weight: 550;
+    font-size: 18px;
+}
+#Veron a{
+    color: #0050c3;
+}
+#Comillas{
+    height: 50px;
+    width: 50px;
 }
 
 /*QUINTO SECTION*/
 #QuintoSection{
-    padding-bottom: 120px;
+    padding-bottom: 100px;
     padding-top: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: block;
 }
+.aQS{
+    color: #0050c3;
+}
+.pQS{
+    color: #4b5fA0;
+}
+
 
 
 /*SEXTO SECTION*/
 #SextoSection{
     padding-bottom: 120px;
-    padding-top: 120px;
+    padding-top: 200px;
     display: flex;
 }
-#ImgSexto{
-    width: 50%;
+#Contenedor6S{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
+#Img6S{
+    margin-left: 180px;
+}
+#ImgSexto{
+    max-width: 100%;
+    width: 500px;
+}
+#Der6S{
+    margin-left: 150px;
+}
+.h26S{
+    font-size: 33px;
+    line-height: 1.05;
+}
+#a6S{
+    margin-top: 40px;    
+}
+
 
 
 /*SEPTIMO SECTION*/
 #SeptimoSection{
-    padding-bottom: 120px;
+    padding-bottom: 40px;
     padding-top: 120px;
 }
 #ContainerSeptimo{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 80px;
+
 }
 #h1Septimo{
-
+    font-size: 22px;
 }
 #PregSeptimo{
-
+    width: 900px;
+}
+.PrimerPreg7S{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    margin-right: 100px;
+    padding-left: 100px;
+    font-weight: 600;
+    text-align: left;
+    font-size: 26px;
+}
+.Preg7S{
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    font-weight: 600;
+    text-align: left;
+    font-size: 26px;
 }
 
 
@@ -234,19 +326,26 @@ body{
     justify-content: space-between;
     background-color: #0050c3;
     color: white;
-    padding: 30px;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-bottom: 70px;
+
 }
-#SectionFooter{
+#divcontainer{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    align-items: center;
 }
 #DivIzq{
 
 }
 #DivDer{
+    padding-left: 680px;
+    display: flex;
 }
 .ImgFooter{
     color: white;
     text-decoration: none;
+    height: 25px;
+    width: 25px;
+    margin: 10px;
 }
